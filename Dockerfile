@@ -1,5 +1,5 @@
-FROM eclipse-temurin:17-jdk-focal
+FROM openjdk:17
 ENV HOME /root
-COPY ./build/libs/test-*.jar /root/test.jar
+COPY ./build/libs/docker-test-*.jar /root/docker-test.jar
 WORKDIR /root/
-CMD [ "java","jar","/root/test.jar" ]
+CMD [ "java","jar","/root/docker-test.jar" ]
