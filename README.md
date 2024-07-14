@@ -1,1 +1,1 @@
-This is the learning project for Docker.
+This project is for learning the Jenkins integratino with Docker.
